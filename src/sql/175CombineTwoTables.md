@@ -1,7 +1,9 @@
-#175. Combine Two Tables
+# 175. Combine Two Tables
 
-Table: Person
 
+Table: `Person`
+
+<pre>
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -10,8 +12,12 @@ Table: Person
 | LastName    | varchar |
 +-------------+---------+
 PersonId is the primary key column for this table.
-Table: Address
+</pre>
 
+Table: `Address`
+
+
+<pre>
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -21,6 +27,7 @@ Table: Address
 | State       | varchar |
 +-------------+---------+
 AddressId is the primary key column for this table.
+</pre>
 
 
 # Write your MySQL query statement below
