@@ -31,6 +31,7 @@ AddressId is the primary key column for this table.
 
 
 # Write your MySQL query statement below
-select FirstName, LastName, City, State
+```select FirstName, LastName, City, State
 from Person left join Address
 on Person.PersonId = Address.PersonId;
+```
