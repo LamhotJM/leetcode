@@ -1,9 +1,9 @@
 public class Palindrome {
 
 
-    public boolean checkPalindrome(String polindrome) {
-        for (int i = 0; i < polindrome.length(); i++) {
-            if (polindrome.charAt(i) != polindrome.charAt(polindrome.length() - 1 - i)) {
+    public boolean checkPalindrome(String palindrome) {
+        for (int i = 0; i < palindrome.length(); i++) {
+            if (palindrome.charAt(i) != palindrome.charAt(palindrome.length() - 1 - i)) {
                 return false;
             }
         }
