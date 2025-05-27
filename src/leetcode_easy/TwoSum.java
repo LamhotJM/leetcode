@@ -30,9 +30,7 @@ public class TwoSum {
 		HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 		for (int i = 0; i < nums.length; i++) {
 			if (map.containsKey(nums[i])) {
-				map.entrySet().forEach(entry -> {
-					System.out.println(entry.getKey() + " " + entry.getValue());
-				});
+				map.forEach((key, value) -> System.out.println(key + " " + value));
 				return new int[] { (map.get(nums[i])), i };
 			} else
 				map.put(target - nums[i], i);

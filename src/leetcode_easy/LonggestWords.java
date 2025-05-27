@@ -12,7 +12,7 @@ public class LonggestWords {
 
 	}
 
-	private class TrieNode {
+	private static class TrieNode {
 		HashMap<Character, TrieNode> children = new HashMap<>();
 		int index = -1;
 

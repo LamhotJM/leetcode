@@ -14,7 +14,7 @@ public class LongestCommonPrefix {
 	public String longestCommonPrefix(String[] str)
 	{
 		String longestCommonPrefix="";
-		if(str==null || str.length<0)
+		if(str == null)
 		{
 			return longestCommonPrefix;
 		}
