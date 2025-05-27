@@ -6,11 +6,11 @@ import java.util.List;
 public class Prime {
 
     public boolean primeCheck(int n) {
-        for (int i = 2; i < n; i++) {
-            for (int j = 2; j < i; j++) {
-                if (n % j == 0) {
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+//            for (int j = 2; j < i; j++) {
+                if (n % i == 0) {
                     return false;
-                }
+            //    }
             }
 
         }
